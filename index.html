@@ -5,12 +5,39 @@
   <link rel="stylesheet" href="style.css" />
   <style>
     body {
-      font: 4em Helvetica, sans-serif;
+      font: 2em Helvetica, sans-serif;
       color: white;
       background: black;
-      padding: .1em 1em 0 1em;
+      padding: 0;
       margin: 0;
+    }
+    article {
+      display: block;
       text-align: center;
+    }
+    h1 {
+      font-size: 5em;
+    }
+    header {
+      text-align: left;
+      background: #333;
+      padding: .1em .3em;
+      display: block;
+    }
+    footer {
+      text-align: left;
+      background: #333;
+      padding: .1em .3em;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+      display: block;
+    }
+    p {
+      margin: 1em 0;
+    }
+    #darth-vador-with-a-sombrero {
+      margin-top: 3em;
     }
   </style>
   <script src="javascript/jquery.js"></script>
@@ -21,17 +48,20 @@
 
 
 <article id="ahoy-mates">
+  <header>HTML5 slides</header>
   <h1>Ahoy mates!</h1>
+  <footer>Sunny Ripert</footer>
 </article>
 
-
 <article id="slides-ftw">
+  <header>HTML5 slides &gt; Conclusion</header>
   <h1>Slides <abbr title="For the win">ftw</abbr>!</h1>
+  <footer>Sunny Ripert</footer>
 </article>
 
 <article id="darth-vador-with-a-sombrero">
-  <p><img src="http://sunfox.org/blog/wp-content/uploads/2008/05/dark-vador-sombrero.jpg"
-    alt="Sombrero Vador" /></p>
+  <img src="http://sunfox.org/blog/wp-content/uploads/2008/05/dark-vador-sombrero.jpg"
+    alt="Sombrero Vador" />
 </article>
 
 </body>
